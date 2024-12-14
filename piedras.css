@@ -1,0 +1,299 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    background-size: cover;
+    
+  }
+   a {
+    text-decoration: none;
+  }
+   /* el headercito */
+  header {
+    background-color: #313131;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    
+  }
+    header nav {
+      padding: 30px;
+      
+    }
+   .logoo img {
+    max-width: 100px;
+    position: relative;
+      top: 30px;
+      left: 10px;
+      padding: 0;
+      margin: 0;
+  }
+
+  .moonshare {
+    position: relative;
+    color: #028a9a;
+    bottom: 60px;
+    left: 110px;
+    padding: 0;
+    margin: 0;
+    font-size: 55px;
+    font-family: Impact, Arial, sans-serif;
+    text-shadow: 0px 0px 3px #000000;
+    background-color: #333;
+  }
+
+   nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+   nav li {
+    margin-left: 20px;
+  }
+   nav a {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+  }
+   nav a:hover {
+    color: #FF8C00;
+  }
+    .presentacion {
+    background-image: url(./imagenes/estrelals\ moradas\ con\ blur.png);
+    color: rgb(228, 228, 228);
+    padding: 100px;
+    }
+
+    .presentacion h2 {
+      font-size: 3em;
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    .presentacion p {
+      font-size: 1.4em;
+      padding-top: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: left;
+    }
+   /* los productos destacados */
+  .piedras {
+    background-image: url(./imagenes/estrellas\ productos.jpg);
+    background-position: 10%;
+    padding: 70px;
+    text-align: center;
+  }
+   .piedras h2 {
+    color: #ffffff;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+   .columnas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 2em;
+    
+  }
+   .columna {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    width: 300px;
+  }
+   .columna:hover {
+    transform: translateY(-10px);
+  }
+   .columna img {
+    max-width: 100%;
+  }
+   .columna p {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+  }
+   /* productos */
+  .productos {
+    padding: 50px;
+    text-align: center;
+    background-position: 10%;
+    background-image: url(./imagenes/estrellas\ productos.jpg);
+    
+  }
+   .productos h2 {
+    color: #FFFFFF;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+   .productos .columnas {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+   .productos .columna {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    width: 300px;
+  }
+   .productos .columna:hover {
+    transform: translateY(-10px);
+  }
+   .productos .columna img {
+    max-width: 100%;
+  }
+   .productos .columna p {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+  }
+   /* el form */
+   #caja {
+    position: relative;
+    bottom: 50px;
+    font-size: 1.5em;
+    background-color: #000000;
+    padding: 20px;
+    margin-bottom: 80px;
+    color: white;
+   }
+  .contacto {
+    background-image: url(./login/estrellas\ contactos\ login.jpg);
+    padding: 50px;
+    text-align: center;
+
+  }
+   .contacto h2 {
+    color: #000000;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+   .contacto form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+   .contacto label {
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+   .contacto input,
+  .contacto textarea {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+  }
+   .contacto input[type="submit"] {
+    background-color: #FF8C00;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+    width: 200px;
+  }
+   .contacto input[type="submit"]:hover {
+    background-color: #FFA500;
+  }
+   /* el pie de la paginita */
+   #contenedor {
+    width: 100%;
+    height: 300px;
+    background-image: url(./imagenes/cropped-3840-2160-1295574.png);
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+   }
+   #foto {
+    position: relative;
+    top: 50px;
+    background-image: url(./imagenes/foto\ CEO.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    
+
+   }
+
+   #CEO {
+    position: absolute;
+    top: 225px;
+    font-size: 2em;
+    color: white;
+
+   }
+  footer {
+    background-color: #313131;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+   .direccion {
+    
+    flex-basis: 30%;
+    margin-bottom: 20px;
+  }
+   .redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 30%;
+  }
+   .redes-sociales img {
+    height: 30px;
+    margin: 0 10px;
+  }
+   .derechos-autor {
+    flex-basis: 30%;
+    text-align: right;
+  }
+        .logo img {
+      max-width: 200px;
+    }
+
+     .destacados .columnas {
+      flex-wrap: wrap;
+    }
+     .destacados .columna,
+    .productos .columna {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+     
+  
+    .direccion,
+    .redes-sociales,
+    .derechos-autor {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  
